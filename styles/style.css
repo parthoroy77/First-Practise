@@ -75,6 +75,7 @@
     border-radius: 5px;
     margin-bottom: 40px;
     box-shadow: 2px 2px rgb(130, 84, 84);
+    cursor: pointer;
 }
 .donate-btn:hover {
     background-color: pink;
@@ -89,4 +90,90 @@
 .extra-btn{
     margin-top: 20px;
     text-align: center;
+}
+/* section donate plan */
+.donate-plan{
+    height: 80vh;
+    width: 100%;
+}
+.plan-heading{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.plan-description{
+    text-align: center;
+    padding: 30px 270px;
+    font-size: 25px;
+}
+.plans{
+    display: flex;
+    
+    justify-content: center;
+}
+.plan-box1{
+    margin-right: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 15px;
+    box-shadow: 2px 2px grey;
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    background-color: rgba(216, 199, 208, 0.589);
+}
+.plan-box2{
+    margin-right: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 15px;
+    box-shadow: 2px 2px grey;
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    background-color: rgba(56, 211, 195, 0.306);
+}
+.plan-box3{
+    margin-right: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 15px;
+    box-shadow: 2px 2px grey;
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    background-color: rgba(87, 235, 158, 0.484);
+}
+.plan-title{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 35px 0;
+}
+.plan-p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* article section */
+.articles{
+    height: 150vh;
+    width: 100%;
+}
+.article1{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding: 50px 150px;  
+}
+.article2{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding: 50px 150px;  
+}
+.article-heading{
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.article-description{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 30px 0;
 }
